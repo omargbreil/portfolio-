@@ -17,72 +17,126 @@ export default function Portfolio() {
   };
 
   const skills = {
-    'Languages & Runtime': ['JavaScript', 'TypeScript', 'Node.js', 'Java', 'Dart', 'ES6+'],
-    'Frontend': ['React', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap', 'Context API', 'React Hooks'],
-    'Backend': ['Express.js', 'RESTful APIs', 'Middleware', 'Authentication', 'JWT'],
-    'Databases': ['MongoDB', 'MySQL', 'PostgreSQL', 'Mongoose'],
-    'DevOps & Tools': ['Git', 'GitHub', 'Vercel', 'npm', 'Flutter'],
-    'Core Skills': ['OOP', 'Data Structures', 'Algorithms', 'Design Patterns', 'Problem Solving', 'Agile']
+    'Languages': ['JavaScript (ES6+)','TypeScript','PHP', 'Java', 'Dart','Python', 'SQL'],
+    'Frontend': ['React', 'Next.js','HTML5', 'CSS3','i18n','Tailwind CSS', 'Bootstrap', 'Redux Toolkit', 'TanStack Query', 'React Hooks', 'Context API'],
+    'Backend': ['Node.js','Express.js','RESTful APIs','Socket.io','Middleware','Payment Processing', 'Authentication','ODM' ,'JWT', 'Refresh Tokens', 'Cookies'],
+    'Databases': ['MongoDB', 'MySQL', 'PostgreSQL'],
+    'Core Skills': ['OOP', 'Data Structures', 'Algorithms', 'Design Patterns', 'Problem Solving']
   };
 
   const experience = [
     {
-      title: 'Fullstack Freelance Developer',
-      period: 'May 2023 - Present',
-      location: 'Remote',
-      type: 'Freelance',
+      title: 'Frontend Developer',
+      period: 'Jan 2026 – Jun 2026',
+      location: 'Abu Dhabi, UAE',
+      company: 'AddMeGroup',
+      type: 'Remote',
       highlights: [
-        'Collaborated with international teams on enterprise-level applications',
-        'Architected and deployed scalable Node.js backend services',
-        'Implemented comprehensive testing and debugging strategies',
-        'Designed and integrated RESTful APIs with frontend applications',
-        'Maintained 99.9% uptime through proactive monitoring and optimization'
+        'Developed responsive websites, dashboards, and web applications for multiple clients.',
+        'Converted UI/UX designs into fully functional web interfaces.',
+        'Integrated APIs and optimized frontend performance.',
+        'Built reusable components and scalable frontend architectures.',
+        'Worked on educational, business, tourism, and entertainment platforms.'
       ]
     },
     {
       title: 'Full Stack Developer',
-      period: 'Sep 2022 - Apr 2023',
+      period: 'Jun 2025 – Jun 2026',
+      location: 'Alexandria, Egypt',
+      company: 'SpaceTeen',
+      type: 'On-site',
+      highlights: [
+        'Delivered programming and software development training sessions.',
+        'Designed and developed a custom internal platform tailored to company requirements.',
+        'Built frontend and backend modules to support educational and operational workflows.',
+        'Participated in system planning, implementation, testing, and deployment.',
+        'Assisted students and team members with software engineering best practices.'
+      ]
+    },
+    {
+      title: 'Full Stack Developer',
+      period: 'Sep 2023 – Oct 2024',
       location: 'Cairo, Egypt',
       company: 'CRA',
       type: 'Remote',
       highlights: [
-        'Developed full-stack features using MERN stack',
-        'Optimized database queries reducing response time by 40%',
-        'Led code reviews and maintained technical documentation',
-        'Resolved critical production bugs with minimal downtime',
-        'Mentored junior developers on best practices'
+        'Maintained and enhanced existing production systems used by active users.',
+        'Developed new features and system upgrades based on business requirements.',
+        'Fixed critical bugs and improved overall application stability and performance.',
+        'Worked across both frontend and backend components of the platform.'
       ]
     }
   ];
 
   const projects = [
     {
-      title: 'E-Learning Platform',
-      description: 'A comprehensive learning management system with admin dashboard, course management, and student progress tracking.',
-      technologies: ['Node.js', 'React', 'MySQL', 'Express.js', 'JWT'],
+      title: 'Kayan Educational Platform',
+      description: 'A complete educational platform designed to manage students, courses, sessions, and learning content through a modern and scalable architecture.',
+      technologies: ['TypeScript', 'React', 'Redux Toolkit', 'TanStack Query', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Refresh Tokens'],
       features: [
-        'Role-based authentication (Admin/Student)',
-        'Dynamic course and module management',
-        'Real-time progress tracking',
-        'Database migrations for version control',
-        'Responsive admin dashboard'
+        'Authentication & Authorization with JWT & Refresh Tokens',
+        'Role-Based Access Control',
+        'Student Learning Dashboard',
+        'Payment Integration & Wallet System',
+        'Email Notifications',
+        'Secure API Architecture',
+        'Production Deployment on Vercel'
       ],
-      link: 'https://study-arena-f.vercel.app/',
+      link: 'https://kayan-n7cy.vercel.app',
       gradient: 'from-purple-500 to-pink-500'
     },
     {
-      title: 'Noxe - Movie Discovery App',
-      description: 'Modern movie browsing application with advanced search, filtering, and detailed movie information.',
-      technologies: ['React', 'Context API', 'Joi', 'TMDB API', 'Vercel'],
+      title: 'Space Of Creation Platform',
+      description: 'A multilingual educational and content platform built with Next.js, focusing on performance, accessibility, and user experience.',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'TanStack Query', 'i18n'],
+      features: [
+        'Multi-Language Support (Internationalization)',
+        'SEO Friendly Architecture',
+        'Responsive Design',
+        'Modern UI/UX'
+      ],
+      link: 'https://space-of-creation.netlify.app/',
+      gradient: 'from-blue-500 to-cyan-500'
+    },
+    {
+      title: 'Interactive Math Challenge Game',
+      description: 'An interactive touch-screen educational game designed for classroom engagement, competition, concentration improvement, and student interaction.',
+      technologies: ['React', 'TypeScript'],
+      features: [
+        'Touch Screen Optimization',
+        'Real-Time Competition',
+        'Audio Feedback & Visual Effects',
+        'Focus & Speed Challenges',
+        'Classroom Friendly Experience'
+      ],
+      link: 'https://math-game-orcin-alpha.vercel.app/',
+      gradient: 'from-green-500 to-teal-500'
+    },
+    {
+      title: 'Egypt Tourism Website',
+      description: 'A tourism-focused platform showcasing destinations, attractions, and travel experiences across Egypt with interactive map features.',
+      technologies: ['React', 'TypeScript', 'React Leaflet', 'Node.js', 'Express.js'],
+      features: [
+        'Interactive Map of Egyptian Destinations',
+        'Destination Discovery & Filtering',
+        'Responsive Design',
+        'Modern UI/UX'
+      ],
+      link: 'https://tourism-psi-gray.vercel.app/',
+      gradient: 'from-yellow-500 to-orange-500'
+    },
+    {
+      title: 'Noxe – Movie Discovery App',
+      description: 'Modern movie browsing application with advanced search, filtering, and detailed movie information powered by TMDB API.',
+      technologies: ['React', 'Context API', 'JavaScript', 'TMDB API', 'Vercel'],
       features: [
         'Real-time movie search with TMDB API',
         'Advanced filtering and sorting',
-        'Form validation with Joi',
         'State management with Context API',
         'Optimized performance and caching'
       ],
       link: 'https://noxe-black.vercel.app/',
-      gradient: 'from-blue-500 to-cyan-500'
+      gradient: 'from-indigo-500 to-purple-500'
     }
   ];
 
@@ -98,7 +152,7 @@ export default function Portfolio() {
               <span className="text-gray-900">Omar</span>
               <span className="text-blue-600">.</span>
             </div>
-            
+
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-10">
               {['About', 'Experience', 'Projects', 'Skills', 'Contact'].map((item) => (
@@ -152,13 +206,13 @@ export default function Portfolio() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <div className="inline-block bg-blue-50 text-blue-600 px-4 py-2 rounded-full text-sm font-medium mb-6">
-                Available for Freelance
+                Available for Opportunities
               </div>
               <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
                 Hi, I'm <span className="text-blue-600">Omar Magdi</span>
               </h1>
               <p className="text-xl lg:text-2xl text-gray-600 mb-8 leading-relaxed">
-                Fullstack Developer specializing in building exceptional digital experiences with Node.js, React, and modern web technologies.
+                Full Stack Developer specializing in modern web applications using React, Next.js, TypeScript, Node.js, Express, and MongoDB.
               </p>
               <div className="flex flex-wrap gap-4 mb-12">
                 <button
@@ -185,24 +239,24 @@ export default function Portfolio() {
             </div>
             <div className="hidden lg:block">
               <div className="relative">
-                <div className="absolute inset-0 bg-linear-to-r from-blue-400 to-purple-500 rounded-3xl transform rotate-6"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-3xl transform rotate-6"></div>
                 <div className="relative bg-gray-900 rounded-3xl p-8 text-white">
                   <div className="space-y-4">
                     <div className="flex items-center gap-3">
                       <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                      <span className="text-sm">Currently Available</span>
+                      <span className="text-sm">Open to New Roles</span>
                     </div>
-                    <div className="text-4xl font-bold">2+ Years</div>
+                    <div className="text-4xl font-bold">3+ Years</div>
                     <div className="text-gray-400">Professional Experience</div>
                     <div className="pt-6 border-t border-gray-700">
                       <div className="grid grid-cols-2 gap-4 text-center">
                         <div>
-                          <div className="text-2xl font-bold">20+</div>
+                          <div className="text-2xl font-bold">5+</div>
                           <div className="text-gray-400 text-sm">Projects</div>
                         </div>
                         <div>
-                          <div className="text-2xl font-bold">100%</div>
-                          <div className="text-gray-400 text-sm">Client Satisfaction</div>
+                          <div className="text-2xl font-bold">3</div>
+                          <div className="text-gray-400 text-sm">Companies</div>
                         </div>
                       </div>
                     </div>
@@ -227,13 +281,13 @@ export default function Portfolio() {
             <div>
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">About Me</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                I'm a passionate fullstack developer from Alexandria, Egypt, with a strong focus on backend development 
-                using Node.js and JavaScript. I specialize in building scalable applications and solving complex technical challenges.
+                I'm a Full Stack Developer from Alexandria, Egypt, specializing in modern web applications using React, Next.js, TypeScript, Node.js, Express, MongoDB, and SQL databases.
+              </p>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                I enjoy building complete products from idea to production — frontend development, backend architecture, authentication systems, API integrations, database design, and deployment.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                With expertise in both SQL and NoSQL databases, I excel at data migration, modular programming, 
-                and implementing RESTful APIs. I thrive in international, cross-functional teams and quickly adapt 
-                to new technologies.
+                I actively leverage AI-powered tools such as Claude and Codex to accelerate development workflows, improve software quality, and deliver solutions faster without sacrificing maintainability.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
@@ -265,7 +319,7 @@ export default function Portfolio() {
               <h3 className="text-2xl font-bold mb-6">Education & Training</h3>
               <div className="space-y-6">
                 <div className="border-l-4 border-blue-600 pl-6">
-                  <div className="text-sm text-gray-500 mb-1">Jan 2022 - Nov 2022</div>
+                  <div className="text-sm text-gray-500 mb-1">Jan 2022 – Jan 2023</div>
                   <h4 className="text-xl font-bold mb-2">MERN Stack Development</h4>
                   <div className="text-gray-600 mb-3">Route Academy</div>
                   <ul className="space-y-2 text-gray-600">
@@ -283,7 +337,11 @@ export default function Portfolio() {
                     </li>
                     <li className="flex gap-2">
                       <span className="text-blue-600">•</span>
-                      <span>Applied OOP concepts and agile methodologies</span>
+                      <span>Applied OOP concepts, design patterns, and agile methodologies</span>
+                    </li>
+                    <li className="flex gap-2">
+                      <span className="text-blue-600">•</span>
+                      <span>Collaborated on team projects following industry best practices</span>
                     </li>
                   </ul>
                 </div>
@@ -306,7 +364,7 @@ export default function Portfolio() {
                       {job.type}
                     </div>
                     <h3 className="text-2xl font-bold mb-2">{job.title}</h3>
-                    {job.company && <div className="text-gray-600 mb-2">{job.company}</div>}
+                    {job.company && <div className="text-blue-600 font-medium mb-1">{job.company}</div>}
                     <div className="text-gray-500 text-sm">{job.location}</div>
                   </div>
                   <div className="text-gray-500 mt-4 lg:mt-0 font-medium">{job.period}</div>
@@ -332,12 +390,12 @@ export default function Portfolio() {
           <div className="grid lg:grid-cols-2 gap-8">
             {projects.map((project, index) => (
               <div key={index} className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all">
-                <div className={`h-48 bg-linear-to-r ${project.gradient} p-8 flex items-center justify-center`}>
+                <div className={`h-48 bg-gradient-to-r ${project.gradient} p-8 flex items-center justify-center`}>
                   <h3 className="text-3xl font-bold text-white text-center">{project.title}</h3>
                 </div>
                 <div className="p-8">
                   <p className="text-gray-600 mb-6 leading-relaxed">{project.description}</p>
-                  
+
                   <div className="mb-6">
                     <h4 className="font-bold text-sm text-gray-400 mb-3 uppercase tracking-wide">Tech Stack</h4>
                     <div className="flex flex-wrap gap-2">
@@ -383,7 +441,7 @@ export default function Portfolio() {
           <h2 className="text-4xl lg:text-5xl font-bold mb-16 text-center">Technical Skills</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {Object.entries(skills).map(([category, items], index) => (
-              <div key={index} className="bg-linear-to-br from-gray-50 to-white rounded-3xl p-8 shadow-lg">
+              <div key={index} className="bg-gradient-to-br from-gray-50 to-white rounded-3xl p-8 shadow-lg">
                 <h3 className="text-xl font-bold mb-6 text-blue-600">{category}</h3>
                 <div className="flex flex-wrap gap-2">
                   {items.map((skill, idx) => (
@@ -399,11 +457,11 @@ export default function Portfolio() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-32 px-6 lg:px-12 bg-linear-to-br from-blue-600 to-purple-600 text-white">
+      <section id="contact" className="py-32 px-6 lg:px-12 bg-gradient-to-br from-blue-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6">Let's Work Together</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-6">Contact Me</h2>
           <p className="text-xl mb-12 text-blue-100">
-            I'm always interested in hearing about new projects and opportunities. 
+            I'm always interested in hearing about new projects and opportunities.
             Let's create something amazing together!
           </p>
           <div className="flex flex-wrap justify-center gap-6 mb-12">
@@ -424,16 +482,17 @@ export default function Portfolio() {
               GitHub
             </a>
           </div>
-          <div className="text-blue-100">
-            <div className="mb-2">Phone: (+20) 01098402504</div>
+          <div className="text-blue-100 space-y-2">
+            <div>Phone: (+20) 01098402504</div>
             <div>Location: Alexandria, Egypt</div>
+       
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-6 lg:px-12 bg-gray-900 text-white">
-     
+      <footer className="py-8 px-6 lg:px-12 bg-gray-900 text-white text-center text-gray-400 text-sm">
+        <p>© 2026 Omar Gbreil</p>
       </footer>
     </div>
   );
